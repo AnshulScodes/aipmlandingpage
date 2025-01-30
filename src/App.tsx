@@ -6,7 +6,6 @@ import Header from './components/Header';
 import WaitlistForm from './components/WaitlistForm';
 import CookieConsent from './components/CookieConsent';
 import { initGA } from './lib/analytics';
-import { Analytics } from '@vercel/analytics/next';
 
 function App() {
   useEffect(() => {
@@ -27,7 +26,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
       <Header />
       <CookieConsent />
-      <Analytics />
+
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6">
         <div className="container mx-auto text-center">
