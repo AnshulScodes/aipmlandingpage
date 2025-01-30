@@ -27,7 +27,7 @@ const Header = () => {
           <div className="flex items-center space-x-2">
             <Brain className="h-8 w-8 text-purple-600" />
             <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-              Organ
+              Organi
             </span>
           </div>
           
