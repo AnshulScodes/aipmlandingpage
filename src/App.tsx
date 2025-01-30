@@ -208,7 +208,7 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Brain className="h-8 w-8 text-purple-400" />
-                <span className="text-2xl font-bold">Organ</span>
+                <span className="text-2xl font-bold">Organi</span>
               </div>
               <p className="text-gray-400">
                 Revolutionizing project management with AI
@@ -251,7 +251,7 @@ function App() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Organ. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Organi. All rights reserved.</p>
           </div>
         </div>
       </footer>
